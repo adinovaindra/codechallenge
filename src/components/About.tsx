@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutMe from './../assets/image/aboutme.jpg'
 
 const Aboutme: React.FC = () => {
     return (
@@ -18,7 +19,7 @@ const Aboutme: React.FC = () => {
                     <div className="relative">
                         <img
                             className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 rounded-md"
-                            src="../../public/aboutme.jpg"
+                            src={aboutMe}
                             alt=""
                         />
                     </div>

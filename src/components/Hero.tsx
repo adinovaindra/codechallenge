@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import imageKecil from './../assets/image/imagekecil.jpg'
 
 interface NavigationItem {
   name: string;
@@ -28,11 +29,7 @@ export default function Hero() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
-                src="../../public/imagekecil.jpg"
-                className="rounded-full w-11 h-11 object-cover"
-              />
+              <img src={imageKecil} alt="" className="rounded-full w-11 h-11 object-cover"/>
             </a>
           </div>
           <div className="flex lg:hidden">
