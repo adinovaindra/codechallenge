@@ -23,12 +23,11 @@ export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[url('your-image-url.jpg')] bg-cover bg-center min-h-screen flex flex-col">
+    <div className="bg-#1A1A1A bg-cover bg-center min-h-screen flex flex-col">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
               <img src={imageKecil} alt="" className="rounded-full w-11 h-11 object-cover"/>
             </a>
           </div>
@@ -51,7 +50,7 @@ export default function Hero() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm font-semibold text-gray-900">
-              Log in <span aria-hidden="true">&rarr;</span>
+                <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
