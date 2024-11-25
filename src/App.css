@@ -1,0 +1,7 @@
+/* styles/globals.css */
+html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;  /* Ensure there is no default margin */
+  }
+  
